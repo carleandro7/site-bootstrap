@@ -1,0 +1,145 @@
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+h4{
+    font-size: 18px;
+
+}
+
+.th1{
+    color: $ciano-normal;
+    margin-left: 3%;
+    margin-top: 7%;
+    
+}
+.p1{
+    color: $white-normal;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.th2{
+    color: $ciano-normal;
+    margin-top: 1%;
+    margin-left: 74%;
+}
+
+
+.p2{
+    color: $white-normal;
+    margin-left: 20%;
+    
+}
+
+.sobre{
+    margin-left: 64%;
+    font-size: 18px;
+    color: $ciano-normal;
+    &:hover{
+        transition: .6s ease;
+        text-decoration: none;
+        color: $Purple-normal;
+
+    }
+}
+
+
+.th3{
+    margin-top: 8%;
+    color: $ciano-normal;
+    margin-left: 6%;
+}
+.p3{
+    color: $white-normal;
+    margin-left: 10%;
+}
+
+.pesquisa{
+    background-color: $black-normal;
+    color: $white-normal;
+    border-radius: 50px;
+    border-color: $ciano-normal;
+
+}
+.pesquisa2{
+    background-color: $black-normal;
+    color: $white-normal;
+    border-radius: 40px;
+    border: none;
+    &:hover{
+        transition: .6s ease;
+        color: $Purple-normal;
+    }
+
+    
+}
+
+.link{
+    color: $white-normal;
+    &:hover{
+        transition: .6s ease;
+        text-decoration: none;
+        color: $Purple-normal;
+        transition: .6s ease;
+    }
+}
+
+.menu{
+    
+    width: 100%;
+    height: 60px;
+    align-items: center;
+
+}
+
+.objetos{
+    position: absolute;
+    margin-left: 28%;
+    font-size: 18px;
+    color: $ciano-normal;
+    border-radius: 40px;
+    width: 130px;
+    height: 30px;
+    &:hover{
+        transition: 1s ease;
+        text-decoration: none;
+        color: $Purple-normal;
+    }
+}
+
+.me{
+    position: absolute;
+    color: $ciano-normal;
+    margin-top: 10px;
+    margin-left: 60%;
+    &:hover{
+        text-decoration: none;
+        color: $Purple-normal;
+        transition: 1s ease;
+
+        
+    }
+}
+
+.texto2{
+    margin-top: 150px;
+}
+
+
+footer{
+    margin-top: 20%;
+}
+
+.select{
+    color: $ciano-normal;
+    &:hover{
+        text-decoration: none;
+        color: $ciano-normal;
+        font-size: 20px;
+        transition: .4s ease;
+    }
+
+
+}

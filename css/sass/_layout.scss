@@ -1,94 +1,22 @@
-.link{
-    font-family: 'Noto Serif' sans-serif;
-    text-decoration: none;
-    color: $white-normal;
-    padding: 10px 10px;
+@media screen and (max-width: 576px){
+    .pesquisa{
+        display: none;
+    }
+}
 
-    &:hover{
-        transition: .6s ease;
-        color: $ciano-normal;
-        opacity: 80%;
+@media screen and (max-width: 576px){
+    .pesquisa2{
+        display: none;
     }
 }
 
 
-.menu{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 40px;
-}
-
-
-.pesquisa{
+.fundo{
     background-color: $black-normal;
-    color: $white-normal;
-    border-radius: 100px;
+}
 
-    &:hover{
-        transition: .6s ease;
-        color: $ciano-normal;
-        opacity: 80%;
+@media screen and (max-width: 576px){
+    .th2{
+        margin-left: 48%;
     }
-
-}
-
-.main{
-    position: relative;
-    text-decoration: none;
-    display: grid;
-    align-items: center;
-    color: $white-normal;
-    padding: 10px;
-
-    &:hover{
-        transition: .6s ease;
-        color: $ciano-normal;
-    }
-    
-}
-
-.opções{
-    background-color: $black-normal;
-    width: 30%;
-    margin-top: 10%;
-    margin-left: 1%;
-    
-}
-
-.texto1{
-    margin-top: -30%;
-    margin-left: 30%;
-}
-
-.a1{
-    margin-left: -10%;
-}
-.p1{
-    margin-left: -5%;
-}
-
-.texto2{
-    margin-top: 10%;
-    float: right;
-}
-
-.a2{
-    margin-left: 40%;
-}
-.p2{
-    margin-left: -5%;
-}
-
-.texto3{
-    margin-top: 30%
-    ;
-}
-
-.a3{
-    margin-left: 1%;
-}
-
-.p3{
-    margin-left: 4%;
 }

@@ -1,145 +1,180 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  font-family: 'Noto Serif' sans-serif;
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Lato', sans-serif;
 }
 
-.link {
+h4 {
   font-size: 18px;
 }
 
-.pesquisa {
-  font-size: 20px;
+.th1 {
+  color: #0C7C79;
+  margin-left: 3%;
+  margin-top: 7%;
 }
 
-.main {
-  font-size: 20px;
-}
-
-h1 {
-  color: #085457;
-  font-size: 72px;
-}
-
-h2 {
-  color: #085457;
-  font-size: 56px;
-}
-
-p {
+.p1 {
   color: #FFFFFF;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
-body {
-  width: 100%;
+.th2 {
+  color: #0C7C79;
+  margin-top: 1%;
+  margin-left: 74%;
+}
+
+.p2 {
+  color: #FFFFFF;
+  margin-left: 20%;
+}
+
+.sobre {
+  margin-left: 64%;
+  font-size: 18px;
+  color: #0C7C79;
+}
+
+.sobre:hover {
+  -webkit-transition: .6s ease;
+  transition: .6s ease;
+  text-decoration: none;
+  color: #3C0B66;
+}
+
+.th3 {
+  margin-top: 8%;
+  color: #0C7C79;
+  margin-left: 6%;
+}
+
+.p3 {
+  color: #FFFFFF;
+  margin-left: 10%;
+}
+
+.pesquisa {
   background-color: #000000;
+  color: #FFFFFF;
+  border-radius: 50px;
+  border-color: #0C7C79;
+}
+
+.pesquisa2 {
+  background-color: #000000;
+  color: #FFFFFF;
+  border-radius: 40px;
+  border: none;
+}
+
+.pesquisa2:hover {
+  -webkit-transition: .6s ease;
+  transition: .6s ease;
+  color: #3C0B66;
 }
 
 .link {
-  font-family: 'Noto Serif' sans-serif;
-  text-decoration: none;
   color: #FFFFFF;
-  padding: 10px 10px;
 }
 
 .link:hover {
   -webkit-transition: .6s ease;
   transition: .6s ease;
-  color: #0C7C79;
-  opacity: 80%;
+  text-decoration: none;
+  color: #3C0B66;
+  transition: .6s ease;
 }
 
 .menu {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 40px 40px;
-}
-
-.pesquisa {
-  background-color: #000000;
-  color: #FFFFFF;
-  border-radius: 100px;
-}
-
-.pesquisa:hover {
-  -webkit-transition: .6s ease;
-  transition: .6s ease;
-  color: #0C7C79;
-  opacity: 80%;
-}
-
-.main {
-  position: relative;
-  text-decoration: none;
-  display: -ms-grid;
-  display: grid;
+  height: 60px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #FFFFFF;
-  padding: 10px;
 }
 
-.main:hover {
-  -webkit-transition: .6s ease;
-  transition: .6s ease;
+.objetos {
+  position: absolute;
+  margin-left: 28%;
+  font-size: 18px;
   color: #0C7C79;
+  border-radius: 40px;
+  width: 130px;
+  height: 30px;
 }
 
-.opções {
-  background-color: #000000;
-  width: 30%;
-  margin-top: 10%;
-  margin-left: 1%;
+.objetos:hover {
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+  text-decoration: none;
+  color: #3C0B66;
 }
 
-.texto1 {
-  margin-top: -30%;
-  margin-left: 30%;
+.me {
+  position: absolute;
+  color: #0C7C79;
+  margin-top: 10px;
+  margin-left: 60%;
 }
 
-.a1 {
-  margin-left: -10%;
-}
-
-.p1 {
-  margin-left: -5%;
+.me:hover {
+  text-decoration: none;
+  color: #3C0B66;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
 
 .texto2 {
-  margin-top: 10%;
-  float: right;
+  margin-top: 150px;
 }
 
-.a2 {
-  margin-left: 40%;
+footer {
+  margin-top: 20%;
 }
 
-.p2 {
-  margin-left: -5%;
+.select {
+  color: #0C7C79;
 }
 
-.texto3 {
-  margin-top: 30%;
+.select:hover {
+  text-decoration: none;
+  color: #0C7C79;
+  font-size: 20px;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
 }
 
-.a3 {
-  margin-left: 1%;
+main {
+  width: 100%;
+  background-color: #000000;
 }
 
-.p3 {
-  margin-left: 4%;
+@media screen and (max-width: 576px) {
+  .pesquisa {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .pesquisa2 {
+    display: none;
+  }
+}
+
+.fundo {
+  background-color: #000000;
+}
+
+@media screen and (max-width: 576px) {
+  .th2 {
+    margin-left: 48%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
-

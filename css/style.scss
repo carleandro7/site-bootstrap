@@ -1,16 +1,20 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 
 }
 
 @import 'sass/color';
-@import 'sass/tipografia';
-body{
+@import 'sass/typography';
+
+main{
     width: 100%;
+    
 
     background-color: $black-normal;
 }
 
+
 @import 'sass/layout';
+
