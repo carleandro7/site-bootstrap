@@ -188,7 +188,7 @@ hr {
 }
 
 p {
-  color: turquoise;
+  color: #FFFFFF;
 }
 
 .sexo {
@@ -197,6 +197,29 @@ p {
 
 .data {
   color: #0C7C79;
+}
+
+.escolha {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.salvar {
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: #052D32;
+  color: #FFFFFF;
+  border-radius: 40px;
+  width: 80px;
+  height: 30px;
+  border-color: #000000;
+}
+
+.salvar:hover {
+  color: #0C7C79;
+  -webkit-transition: .6s ease;
+  transition: .6s ease;
+  background-color: #000000;
 }
 
 main {

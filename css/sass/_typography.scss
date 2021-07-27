@@ -186,7 +186,7 @@ hr{
 }
 
 p{
-    color: turquoise;
+    color: $white-normal;
 }
 
 
@@ -198,3 +198,23 @@ p{
     color: $ciano-normal;
 }
 
+.escolha{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.salvar{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: $ciano-dark;
+    color: $white-normal;
+    border-radius: 40px;
+    width: 80px;
+    height: 30px;
+    border-color: $black-normal;
+    &:hover{
+        color: $ciano-normal;
+        transition: .6s ease;
+        background-color: $black-normal;
+    }
+}
