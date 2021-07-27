@@ -143,3 +143,58 @@ footer{
 
 
 }
+
+
+.hf, .hf2, .hf3{
+    margin-top: 10px;
+    color: $ciano-normal;
+}
+
+.pf{
+    margin-left: 20px;
+    color: $white-normal;
+    font-size: 22px;
+}
+
+
+
+.inp{
+    background-color: $black-dark;
+    border-radius: 40px;
+    border-color: $ciano-normal;
+    color: $white-normal;
+}
+
+
+.but{
+    margin-left: 10px;
+    background-color: $black-normal;
+    color: $ciano-normal;
+    border: transparent;
+    font-size: 20px;
+    &:hover{
+        transition: .6s ease;
+        color: $Purple-normal;
+    }
+}
+
+
+
+
+hr{
+    color: turquoise;
+}
+
+p{
+    color: turquoise;
+}
+
+
+.sexo{
+    margin-left: 27px;
+}
+
+.data{
+    color: $ciano-normal;
+}
+

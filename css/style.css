@@ -151,20 +151,78 @@ footer {
   transition: .4s ease;
 }
 
+.hf, .hf2, .hf3 {
+  margin-top: 10px;
+  color: #0C7C79;
+}
+
+.pf {
+  margin-left: 20px;
+  color: #FFFFFF;
+  font-size: 22px;
+}
+
+.inp {
+  background-color: #0F0F0F;
+  border-radius: 40px;
+  border-color: #0C7C79;
+  color: #FFFFFF;
+}
+
+.but {
+  margin-left: 10px;
+  background-color: #000000;
+  color: #0C7C79;
+  border: transparent;
+  font-size: 20px;
+}
+
+.but:hover {
+  -webkit-transition: .6s ease;
+  transition: .6s ease;
+  color: #3C0B66;
+}
+
+hr {
+  color: turquoise;
+}
+
+p {
+  color: turquoise;
+}
+
+.sexo {
+  margin-left: 27px;
+}
+
+.data {
+  color: #0C7C79;
+}
+
 main {
   width: 100%;
   background-color: #000000;
 }
 
 @media screen and (max-width: 576px) {
+  .pesquisa2 {
+    display: none;
+  }
   .pesquisa {
     display: none;
   }
-}
-
-@media screen and (max-width: 576px) {
-  .pesquisa2 {
-    display: none;
+  .th2 {
+    margin-left: 48%;
+  }
+  .pf {
+    font-size: 16px;
+    margin-left: 0px;
+  }
+  .link {
+    font-size: 14px;
+  }
+  .inp {
+    width: 240px;
   }
 }
 
@@ -172,9 +230,21 @@ main {
   background-color: #000000;
 }
 
-@media screen and (max-width: 576px) {
-  .th2 {
-    margin-left: 48%;
+@media screen and (max-width: 1200px) {
+  .inp {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .inp {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .inp {
+    width: 400px;
   }
 }
 /*# sourceMappingURL=style.css.map */
