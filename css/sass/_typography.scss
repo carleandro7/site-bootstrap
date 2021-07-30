@@ -23,7 +23,7 @@ h4{
 .th2{
     color: $ciano-normal;
     margin-top: 1%;
-    margin-left: 74%;
+    margin-left: 45%;
 }
 
 
@@ -66,7 +66,7 @@ h4{
 .pesquisa2{
     background-color: $black-normal;
     color: $white-normal;
-    border-radius: 40px;
+    border-radius: 50px;
     border: none;
     &:hover{
         transition: .6s ease;
@@ -136,85 +136,58 @@ footer{
     color: $ciano-normal;
     &:hover{
         text-decoration: none;
-        color: $ciano-normal;
+        color: $Purple-normal;
         font-size: 20px;
+        position: relative;
+        margin-left: -5px;
         transition: .4s ease;
     }
-
-
 }
 
+.paragrafo{
+    color: $white-normal;
+}
 
-.hf, .hf2, .hf3{
+.sexo{
+    color: white;
     margin-top: 10px;
-    color: $ciano-normal;
-}
-
-.pf{
-    margin-left: 20px;
-    color: $white-normal;
-    font-size: 22px;
-}
-
-
-
-.inp{
-    background-color: $black-dark;
-    border-radius: 40px;
-    border-color: $ciano-normal;
-    color: $white-normal;
-}
-
-
-.but{
-    margin-left: 10px;
-    background-color: $black-normal;
-    color: $ciano-normal;
-    border: transparent;
-    font-size: 20px;
-    &:hover{
-        transition: .6s ease;
-        color: $Purple-normal;
-    }
-}
-
-
-
-
-hr{
-    color: turquoise;
 }
 
 p{
-    color: $white-normal;
+    color: white;
 }
 
-
-.sexo{
-    margin-left: 27px;
-}
-
-.data{
+.th{
     color: $ciano-normal;
 }
 
-.escolha{
-    margin-left: 10px;
-    margin-top: 20px;
+.materias{
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
 }
 
-.salvar{
-    margin-top: 20px;
-    margin-left: 10px;
-    background-color: $ciano-dark;
+.p1{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+.inp{
+    background-color: $black-normal;
+    border-radius: 50px;
     color: $white-normal;
-    border-radius: 40px;
-    width: 80px;
+    border-color: $ciano-normal;
+}
+
+
+.salvar{
+    color: $white-normal;
+    background-color: $black-normal;
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 100px;
     height: 30px;
-    border-color: $black-normal;
-    &:hover{
-        color: $ciano-normal;
-        transition: .6s ease;
-        background-color: $black-normal;
-    }
+    border-color: $ciano-normal;
+
 }

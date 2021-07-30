@@ -28,7 +28,7 @@ h4 {
 .th2 {
   color: #0C7C79;
   margin-top: 1%;
-  margin-left: 74%;
+  margin-left: 45%;
 }
 
 .p2 {
@@ -70,7 +70,7 @@ h4 {
 .pesquisa2 {
   background-color: #000000;
   color: #FFFFFF;
-  border-radius: 40px;
+  border-radius: 50px;
   border: none;
 }
 
@@ -145,81 +145,57 @@ footer {
 
 .select:hover {
   text-decoration: none;
-  color: #0C7C79;
+  color: #3C0B66;
   font-size: 20px;
+  position: relative;
+  margin-left: -5px;
   -webkit-transition: .4s ease;
   transition: .4s ease;
 }
 
-.hf, .hf2, .hf3 {
-  margin-top: 10px;
-  color: #0C7C79;
-}
-
-.pf {
-  margin-left: 20px;
-  color: #FFFFFF;
-  font-size: 22px;
-}
-
-.inp {
-  background-color: #0F0F0F;
-  border-radius: 40px;
-  border-color: #0C7C79;
-  color: #FFFFFF;
-}
-
-.but {
-  margin-left: 10px;
-  background-color: #000000;
-  color: #0C7C79;
-  border: transparent;
-  font-size: 20px;
-}
-
-.but:hover {
-  -webkit-transition: .6s ease;
-  transition: .6s ease;
-  color: #3C0B66;
-}
-
-hr {
-  color: turquoise;
-}
-
-p {
+.paragrafo {
   color: #FFFFFF;
 }
 
 .sexo {
-  margin-left: 27px;
+  color: white;
+  margin-top: 10px;
 }
 
-.data {
+p {
+  color: white;
+}
+
+.th {
   color: #0C7C79;
 }
 
-.escolha {
-  margin-left: 10px;
-  margin-top: 20px;
+.materias {
+  font-size: 14px;
+  margin-top: 10px;
+  color: white;
+}
+
+.p1 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.inp {
+  background-color: #000000;
+  border-radius: 50px;
+  color: #FFFFFF;
+  border-color: #0C7C79;
 }
 
 .salvar {
-  margin-top: 20px;
-  margin-left: 10px;
-  background-color: #052D32;
   color: #FFFFFF;
-  border-radius: 40px;
-  width: 80px;
-  height: 30px;
-  border-color: #000000;
-}
-
-.salvar:hover {
-  color: #0C7C79;
-  -webkit-transition: .6s ease;
-  transition: .6s ease;
   background-color: #000000;
+  border-radius: 50px;
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  border-color: #0C7C79;
 }
 
 main {
@@ -234,40 +210,55 @@ main {
   .pesquisa {
     display: none;
   }
-  .th2 {
-    margin-left: 48%;
+}
+
+.inp {
+  width: 360px;
+}
+
+@media screen and (max-width: 1199px) {
+  .inp {
+    width: 300px;
   }
-  .pf {
-    font-size: 16px;
-    margin-left: 0px;
+}
+
+@media screen and (max-width: 991px) {
+  .inp {
+    width: 330px;
   }
-  .link {
-    font-size: 14px;
-  }
+}
+
+@media screen and (max-width: 767px) {
   .inp {
     width: 240px;
   }
 }
 
+@media screen and (max-width: 620px) {
+  .inp {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .inp {
+    width: 190px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .inp {
+    width: 153px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .inp {
+    width: 130px;
+  }
+}
+
 .fundo {
   background-color: #000000;
-}
-
-@media screen and (max-width: 1200px) {
-  .inp {
-    width: 400px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .inp {
-    width: 250px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .inp {
-    width: 400px;
-  }
 }
 /*# sourceMappingURL=style.css.map */

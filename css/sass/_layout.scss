@@ -5,44 +5,57 @@
     .pesquisa{
         display: none;
     }
-    .th2{
-        margin-left: 48%;
-    }
+}
 
-    .pf{
-        font-size: 16px;
-        margin-left: 0px;
-    }
 
-    .link{
-        font-size: 14px;
+.inp{
+    width: 360px;
+}
+
+
+@media screen and (max-width: 1199px){
+    .inp{
+        width: 300px;
     }
+}
+
+@media screen and (max-width: 991px){
+    .inp{
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 767px){
     .inp{
         width: 240px;
     }
+}
 
+@media screen and (max-width: 620px){
+    .inp{
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .inp{
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .inp{
+        width: 153px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .inp{
+        width: 130px;
+    }
 }
 
 
 .fundo{
     background-color: $black-normal;
-}
-
-@media screen and (max-width: 1200px){
-    .inp{
-        width: 400px;
-    }
-}
-
-
-@media screen and (min-width: 768px){
-    .inp{
-        width: 250px;
-    }
-}
-
-@media screen and (min-width: 1200px){
-    .inp{
-        width: 400px;
-    }
 }
