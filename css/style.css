@@ -228,36 +228,6 @@ main {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .inp {
-    width: 240px;
-  }
-}
-
-@media screen and (max-width: 620px) {
-  .inp {
-    width: 240px;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .inp {
-    width: 190px;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .inp {
-    width: 153px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .inp {
-    width: 130px;
-  }
-}
-
 .fundo {
   background-color: #000000;
 }
